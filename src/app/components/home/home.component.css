@@ -1,0 +1,42 @@
+.main {
+    padding: 62px 170px 0 170px;
+    background-color: #282C33;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    width: 50%;
+    padding-top: 64px;
+}
+.right {
+    width: 50%;
+}
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.purple {
+    color: #C778DD;
+}
+.subTitle {
+    font-size: 16px;
+    line-height: 25px;
+    color: #ABB2BF;
+    margin-bottom: 24px;
+}
+.contactButton {
+    border-color: #C778DD;
+    background-color: transparent;
+    color: white;
+    padding: 8px 16px;
+}
