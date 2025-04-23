@@ -1,5 +1,5 @@
 .main {
-    padding: 62px 170px 0 170px;
+    padding: 62px 170px 90px 170px;
     background-color: #282C33;
     color: white;
 
@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 .container {
     width: 100%;
@@ -19,6 +20,9 @@
 }
 .right {
     width: 50%;
+    position: relative;
+
+    height: 386px;
 }
 .title {
     font-size: 32px;
@@ -39,4 +43,74 @@
     background-color: transparent;
     color: white;
     padding: 8px 16px;
+}
+.image1 {
+    width: 155px;
+    height: 155px;
+    position: absolute;
+    z-index: 1;
+}
+.image2 {
+    position: absolute;
+    z-index: 3;
+    top: 246px;
+    left: 357px;
+}
+.image1 img {
+    width: 100%;
+    height: 100%;
+}
+.imageCentrale {
+    position: absolute;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-bottom: 112px; */
+}
+.cube {
+    width: 16px;
+    height: 16px;
+    background-color: #C778DD;
+}
+.workText {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ABB2BF;
+    gap: 8px;
+    padding: 8px;
+}
+.quoteContainer {
+    margin-top: 148px;
+    font-size: 24px;
+    color: white;
+
+    position: relative;
+}
+.quote, .quoteAuthor {
+    border: 1px solid #ABB2BF;
+    padding: 32px;
+}
+.quoteLogo {
+    position: absolute;
+}
+.quoteLogo.top {
+    left: 11px;
+    top: -11px;
+}
+.quoteLogo.bottom {
+    right: 11px;
+    bottom: 80px;
+}
+.quoteAuthorContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.quoteAuthor {
+    font-size: 32px;
+    border-top: none;
 }

@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 170px 0px 170px;
+    color: white;
+}
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.titleName {
+    letter-spacing: 3%;
+}
+.purple {
+    color: #C778DD;
+}
+.purpleLine {
+    width: 90%;
+    height: 2px;
+    background-color: #C778DD;
+    margin: 0 210px 0 16px;
+}
+.browse {
+    font-size: 16px;
+    cursor: pointer;
+}

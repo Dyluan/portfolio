@@ -1,0 +1,25 @@
+<div class="main" id="projects">
+    <div class="titleContainer">
+        <div class="title">
+            <span class="purple">#</span>
+            <span class="titleName">projects</span>
+        </div>
+        <div class="purpleLine"></div>
+        <div class="browse">View all =></div>
+    </div>
+    <div class="contentContainer">
+        <div class="leftImg">
+            <img src="/img/dots.png" alt="dots image">
+        </div>
+        <div class="projects">
+            <app-project-card 
+            [titleInput]="title"
+            [descriptionInput]="description" 
+            [imgSrcInput]="imgSrc" 
+            [technologiesInput]="technologies" 
+            [urlInput]="url" 
+            
+            ></app-project-card>
+        </div>
+    </div>
+</div>

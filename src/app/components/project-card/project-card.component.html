@@ -1,0 +1,15 @@
+<div class="main">
+    <div class="imgContainer">
+        <img [src]="imgSrcInput()" alt="test image">
+    </div>
+    <div class="technologiesContainer">
+        @for (techno of technologiesInput(); track $index) {
+            <div class="techno">{{ techno }}</div>
+        }
+    </div>
+    <div class="projectTitle">{{ titleInput() }}</div>
+    <div class="projectDescription">{{ descriptionInput() }}</div>
+    <div class="urlContainer">
+        <a [href]="urlInput()" class="url" target="_blank">Live</a>
+    </div>
+</div>
