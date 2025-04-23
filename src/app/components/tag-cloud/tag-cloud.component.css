@@ -1,0 +1,19 @@
+.tag-cloud {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+.tag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform 0.1s linear;
+    will-change: transform, opacity;
+}

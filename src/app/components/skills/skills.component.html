@@ -1,0 +1,36 @@
+<div class="main">
+    <div class="titleContainer">
+        <div class="title">
+            <span class="purple">#</span>
+            <span class="titleName">skills</span>
+        </div>
+        <div class="purpleLine"></div>
+    </div>
+    <div class="contentContainer">
+        <div class="left">
+            <app-tag-cloud></app-tag-cloud>
+        </div>
+        <div class="right">
+            <app-skill-card 
+                [titleInput]="languages.title"
+                [skillsInput]="languages.skills"
+            />
+            <app-skill-card 
+                [titleInput]="databases.title"
+                [skillsInput]="databases.skills"
+            />
+            <app-skill-card 
+                [titleInput]="tools.title"
+                [skillsInput]="tools.skills"
+            />
+            <app-skill-card 
+                [titleInput]="other.title"
+                [skillsInput]="other.skills"
+            />
+            <app-skill-card 
+                [titleInput]="frameworks.title"
+                [skillsInput]="frameworks.skills"
+            />
+        </div>
+    </div>
+</div>

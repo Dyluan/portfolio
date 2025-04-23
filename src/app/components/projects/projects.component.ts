@@ -10,10 +10,28 @@ import { ProjectCardComponent } from '../project-card/project-card.component';
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
-  imgSrc: string = '/img/test.jpg';
-  title: string = 'Random Project';
-  description: string = 'Random project description';
-  url: string = 'something.com';
-  technologies: string[] = ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 
-    'HTML', 'CSS', 'Python', 'Flask', 'Django', 'Input'];
+  project1 = {
+    imgSrc: '/img/test.jpg',
+    title: 'Random Project',
+    description: 'Random project description',
+    url: 'something.com',
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 
+      'HTML', 'CSS', 'Python', 'Flask', 'Django', 'Input'],
+  };
+  project2 = {
+    imgSrc: '/img/test.jpg',
+    title: 'Random Project',
+    description: 'Random project description',
+    url: 'something.com',
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 
+      'HTML', 'CSS', 'Python', 'Flask', 'Django', 'Input'],
+    };
+  project3 = {
+    imgSrc: '/img/test.jpg',
+    title: 'Random Project',
+    description: 'Random project description',
+    url: 'something.com',
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io', 
+      'HTML', 'CSS', 'Python', 'Flask', 'Django', 'Input'],
+  };
 }

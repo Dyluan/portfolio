@@ -1,0 +1,8 @@
+<div class="main">
+    <div class="title">{{ titleInput() }}</div>
+    <div class="description">
+        @for (item of skillsInput(); track $index) {
+            <div class="elem">{{ item }}</div>
+        }
+    </div>
+</div>

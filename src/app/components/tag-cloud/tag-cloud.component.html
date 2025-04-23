@@ -1,0 +1,9 @@
+<div class="tag-cloud">
+    <div
+        class="tag"
+        *ngFor="let tag of tags; let i = index"
+        [ngStyle]="getTagStyle(i)"
+    >
+        {{ tag }}
+    </div>
+</div>
