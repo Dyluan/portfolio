@@ -34,20 +34,20 @@ export class TagCloudComponent implements OnInit{
   ngOnInit(): void {
     this.generateSpherePositions();
 
-  // Initialiser la position du centre
-  const container = document.querySelector('.tag-cloud') as HTMLElement;
-  const rect = container.getBoundingClientRect();
-  this.centerX = rect.left + rect.width / 2;
-  this.centerY = rect.top + rect.height / 2;
+    // Initialiser la position du centre
+    const container = document.querySelector('.tag-cloud') as HTMLElement;
+    const rect = container.getBoundingClientRect();
+    this.centerX = rect.left + rect.width / 2;
+    this.centerY = rect.top + rect.height / 2;
 
-  // Suivi du mouvement de souris
-  window.addEventListener('mousemove', (e) => {
-    this.mouseX = e.clientX - this.centerX;
-    this.mouseY = e.clientY - this.centerY;
+    // Suivi du mouvement de souris
+    window.addEventListener('mousemove', (e) => {
+      this.mouseX = e.clientX - this.centerX;
+      this.mouseY = e.clientY - this.centerY;
 
-    this.rotationSpeedY = this.mouseX * 0.0001;
-    this.rotationSpeedX = this.mouseY * 0.0001;
-  });
+      this.rotationSpeedY = this.mouseX * 0.00005;
+      this.rotationSpeedX = this.mouseY * 0.00005;
+    });
 
   this.animate();
   }

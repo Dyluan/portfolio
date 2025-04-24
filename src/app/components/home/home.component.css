@@ -43,6 +43,10 @@
     background-color: transparent;
     color: white;
     padding: 8px 16px;
+    cursor: pointer;
+}
+.contactButton:hover {
+    background-color: rgba(199, 120, 221, 0.2);
 }
 .image1 {
     width: 155px;

@@ -36,11 +36,14 @@
 .urlContainer {
     padding-left: 16px;
     padding-top: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 .url {
     padding: 8px 16px;
     border: 1px solid #C778DD;
     text-decoration: none;
     color: white;
+}
+.url:hover {
+    background-color: rgba(199, 120, 221, 0.2);
 }
