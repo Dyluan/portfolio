@@ -51,6 +51,11 @@
     left: -170px;
     top: 0px;
 }
+.rightImg {
+    position: absolute;
+    right: -170px;
+    top: 200px;
+}
 .projects {
     display: flex;
     flex-direction: row;

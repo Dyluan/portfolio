@@ -34,10 +34,28 @@
     color: #ABB2BF;
     font-size: 16px;
     line-height: 26px;
+    position: relative;
+}
+.left {
+    width: 50%;
+    position: relative;
+}
+.leftImg {
+    position: absolute;
+    top: 0px;
+    left: -200px;
+}
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .linksContainer {
     border: 1px solid #ABB2BF;
     padding: 16px;
+    width: fit-content;
 }
 .linksTitle {
     color: white;

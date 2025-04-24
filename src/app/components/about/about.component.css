@@ -33,6 +33,12 @@
 }
 .left {
     width: 50%;
+    position: relative;
+}
+.leftImg {
+    position: absolute;
+    left: -170px;
+    top: 30px;
 }
 .right {
     width: 50%;
