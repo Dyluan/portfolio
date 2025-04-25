@@ -45,8 +45,8 @@ export class TagCloudComponent implements OnInit{
       this.mouseX = e.clientX - this.centerX;
       this.mouseY = e.clientY - this.centerY;
 
-      this.rotationSpeedY = this.mouseX * 0.00005;
-      this.rotationSpeedX = this.mouseY * 0.00005;
+      this.rotationSpeedY = this.mouseX * 0.00002;
+      this.rotationSpeedX = this.mouseY * 0.00002;
     });
 
   this.animate();

@@ -1,9 +1,12 @@
 import { Component, AfterViewInit } from '@angular/core';
 import TypeIt from 'typeit';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [
+    TranslateModule
+  ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

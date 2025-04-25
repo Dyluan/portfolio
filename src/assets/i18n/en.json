@@ -1,0 +1,15 @@
+{
+    "HOME": {
+        "TITLE": "Dylan is a",
+        "SUBTITLE": "He crafts responsive websites and web applications where technology meets creativity",
+        "CONTACT": "Contact me!!",
+        "CURRENT_WORK": "Currently working on"
+    },
+    "HEADER": {
+        "HOME": "home",
+        "PROJECTS": "projects",
+        "SKILLS": "skills",
+        "ABOUT": "about",
+        "CONTACT": "contact"
+    }
+}
