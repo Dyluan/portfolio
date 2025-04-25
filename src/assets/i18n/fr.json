@@ -3,7 +3,9 @@
         "TITLE": "Dylan est un",
         "SUBTITLE": "Il crée des sites web responsifs et des applications où la technologie rencontre la créativité",
         "CONTACT": "Contactez-moi!!",
-        "CURRENT_WORK": "Travaille actuellement sur"
+        "CURRENT_WORK": "Actuellement occupé à ",
+        "CURRENT_SITUATION": "apprendre .NET",
+        "QUOTE" : "De grands pouvoirs impliquent de grandes factures d'électricité"
     },
     "HEADER": {
         "HOME": "accueil",

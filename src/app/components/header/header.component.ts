@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [
+    TranslateModule,
+  ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
@@ -15,7 +18,6 @@ export class HeaderComponent {
 
   switchLang(lang: string) {
     this.translate.use(lang);
-    console.log(lang);
   }
 
 }
