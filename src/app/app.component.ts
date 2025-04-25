@@ -1,7 +1,8 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import AOS from 'aos';
 
-declare const AOS: any; // Declare AOS to avoid TypeScript errors
+// declare const AOS: any; // Declare AOS to avoid TypeScript errors
 
 @Component({
   selector: 'app-root',
@@ -14,10 +15,16 @@ declare const AOS: any; // Declare AOS to avoid TypeScript errors
 export class AppComponent implements AfterViewInit, OnInit {
   ngOnInit(): void {
       AOS.init({
+        startEvent: 'DOMContentLoaded',
+        offset: 0,
+        duration: 1000,
+        easing: 'ease-out-back',
         once: false,
       });
   }
   ngAfterViewInit(): void {
-      AOS.refresh();
+      setTimeout(() => {
+        AOS.refresh();
+      }, 1000);
   }
 }
