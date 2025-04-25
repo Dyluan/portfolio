@@ -1,13 +1,19 @@
 .main {
     background-color: #282C33;
     color: white;
-    padding: 32px 170px 8px 170px;
+    padding: 32px 170px 24px 170px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
 }
 .left {
     display: flex;
@@ -43,4 +49,8 @@
 }
 .hashtag {
     color: #C778DD;
+}
+.rightElem a {
+    text-decoration: none;
+    color: #ABB2BF;
 }

@@ -1,0 +1,74 @@
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #ABB2BF;
+    margin-bottom: 32px;
+}
+.main {
+    width: 100%;
+    padding: 0px 170px 0px 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.firstLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}
+.logo img {
+    width: 16px;
+    height: 16px;
+}
+.name {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.nameAddress {
+    color: #ABB2BF;
+    margin-left: 24px;
+}
+.secondLine {
+    color: white;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 12px;
+}
+.copyrightContainer {
+    color: #ABB2BF;
+    margin-bottom: 32px;
+}

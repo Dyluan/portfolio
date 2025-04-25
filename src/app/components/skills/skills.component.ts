@@ -32,4 +32,8 @@ export class SkillsComponent {
     title: 'Frameworks',
     skills: ['React', 'Angular', 'Django']
   }
+  backend = {
+    title: 'Backend',
+    skills: ['Node.js', 'Express.js',]
+  }
 }

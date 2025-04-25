@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+    /* permet de faire que le header ne soit pas devant les éléments lorsqu'on clique sur un lien */
+    scroll-padding-top: 100px;
+}
 html, body {
     background-color: #282C33;
     width: 100%;
