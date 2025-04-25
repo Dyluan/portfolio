@@ -17,9 +17,10 @@ export class AppComponent implements AfterViewInit, OnInit {
       AOS.init({
         startEvent: 'DOMContentLoaded',
         offset: 0,
-        duration: 1000,
+        duration: 2000,
         easing: 'ease-out-back',
         once: false,
+        mirror: true,
       });
   }
   ngAfterViewInit(): void {
