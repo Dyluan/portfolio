@@ -21,6 +21,7 @@
     "aos": "^2.3.4",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "typeit": "^8.8.7",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
