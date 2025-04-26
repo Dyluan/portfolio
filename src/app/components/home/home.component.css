@@ -77,6 +77,10 @@
 
     /* margin-bottom: 112px; */
 }
+.imageCentrale img {
+    max-width: 457px;
+    max-height: 386px;
+}
 .cube {
     width: 16px;
     height: 16px;
