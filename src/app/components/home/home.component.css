@@ -37,6 +37,8 @@
     line-height: 25px;
     color: #ABB2BF;
     margin-bottom: 24px;
+
+    max-width: 463px;
 }
 .contactButton {
     border-color: #C778DD;

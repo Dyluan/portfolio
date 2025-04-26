@@ -26,9 +26,20 @@
             <div class="hashtag">#</div>
             <a href="#contact">{{ 'HEADER.CONTACT' |translate }}</a>
         </div>
-        <div class="languageSelector">
+        <!-- <div class="languageSelector">
             <button (click)="switchLang('en')">EN</button>
             <button (click)="switchLang('fr')">FR</button>
+        </div> -->
+
+        <div class="languageSelector">
+            <button class="dropbtn" (click)="toggleDropDown()">
+                {{ getCurrentLang() | uppercase }}
+                <span class="arrow">▼</span>
+            </button>
+            <div class="dropdown-content" [class.show]="isDropDownOpen">
+                <button (click)="switchLang('en')">EN</button>
+                <button (click)="switchLang('fr')">FR</button>
+            </div>
         </div>
     </div>
 </div>
