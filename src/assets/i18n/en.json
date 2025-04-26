@@ -13,5 +13,12 @@
         "SKILLS": "skills",
         "ABOUT": "about",
         "CONTACT": "contact"
+    },
+    "PROJECTS": {
+        "TITLE": "projects",
+        "ALL": "View all"
+    },
+    "SKILLS": {
+        "TITLE": "skills"
     }
 }

@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { ProjectCardComponent } from '../project-card/project-card.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-projects',
   imports: [
   ProjectCardComponent,
+  TranslateModule,
   ],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css'

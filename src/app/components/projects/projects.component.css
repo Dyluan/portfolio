@@ -33,6 +33,8 @@
     height: 2px;
     background-color: #C778DD;
     margin: 0 210px 0 16px;
+
+    max-width: 589px;
 }
 .browse {
     font-size: 16px;

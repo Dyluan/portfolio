@@ -65,7 +65,7 @@
     background-color: transparent;
     color: #ABB2BF;
     padding: 8px 16px;
-    border: 1px solid #ABB2BF;
+    border: none;
     cursor: pointer;
     display: flex;
     align-items: center;

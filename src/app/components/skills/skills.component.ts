@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { TagCloudComponent } from '../tag-cloud/tag-cloud.component';
 import { SkillCardComponent } from '../skill-card/skill-card.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-skills',
   imports: [
     TagCloudComponent,
-    SkillCardComponent
+    SkillCardComponent,
+    TranslateModule,
   ],
   templateUrl: './skills.component.html',
   styleUrl: './skills.component.css'

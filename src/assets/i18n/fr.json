@@ -13,5 +13,12 @@
         "SKILLS": "compétences",
         "ABOUT": "à propos",
         "CONTACT": "contact"
+    },
+    "PROJECTS": {
+        "TITLE": "projets",
+        "ALL": "Voir plus"
+    },
+    "SKILLS": {
+        "TITLE": "compétences"
     }
 }
