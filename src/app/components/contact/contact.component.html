@@ -1,22 +1,22 @@
 <div class="main" id="contact">
     <div class="titleContainer">
         <span class="purple">#</span>
-        <span class="title">contacts</span>
+        <span class="title">{{ 'CONTACT.TITLE' | translate }}</span>
         <div class="purpleLine"></div>
     </div>
     <div class="contentContainer">
         <div class="leftImg" data-aos="fade-left" data-aos-duration="2000">
             <img src="/img/dots.png" alt="dots image">
         </div>
-        <div class="left" data-aos="flip-up" data-aos-duration="2000">
-            I'm actively looking for a job in the development field, front-end is prefered but I'm open to do
-            full-stack development as well. <br>
-            However, I am also open to freelance opportunities. <br> <br>
-            If you are interested in working with me, please feel free to reach out.
+        <div class="left" 
+            data-aos="flip-up" 
+            data-aos-duration="2000"
+            [innerHTML]="'CONTACT.DESCRIPTION' | translate | nl2br"
+            >
         </div>
         <div class="right">
             <div class="linksContainer" data-aos="flip-right" data-aos-duration="2000">
-                <div class="linksTitle">Message me here</div>
+                <div class="linksTitle">{{ 'CONTACT.MESSAGE' | translate }}</div>
                 <div class="content">
                     <div class="elem">
                         <span class="logo">
