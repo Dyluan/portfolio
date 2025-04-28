@@ -20,5 +20,10 @@
     },
     "SKILLS": {
         "TITLE": "compétences"
+    },
+    "ABOUT": {
+        "TITLE": "à propos",
+        "DESCRIPTION": "Bonjour, je suis Dylan!\n\n Je suis un développeur front-end autodidacte, habitant à Bruxelles, Belgique. Je  développe des sites web responsifs à partir de zéro et les transforme en expériences web modernes et conviviales.\n\n Transformer des idées et des designs en sites web est ma passion depuis plus d'un an maintenant et je veux le partager avec le monde. J'ai aidé divers clients à établir leur présence en ligne et je suis toujours à la recherche de nouveaux défis.\n Je suis toujours désireux d'apprendre de nouvelles technologies et d'améliorer mes compétences.\n",
+        "BUTTON": "En savoir plus"
     }
 }

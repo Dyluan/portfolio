@@ -1,7 +1,7 @@
 <div class="main" id="about">
     <div class="topContainer">
         <span class="purple">#</span>
-        <span class="titleName">about-me</span>
+        <span class="titleName">{{ 'ABOUT.TITLE' | translate }}</span>
         <div class="purpleLine"></div>
     </div>
     <div class="contentContainer">
@@ -9,16 +9,14 @@
             <div class="leftImg" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="/img/rectangle.png" alt="rectangle image">
             </div>
-            <div class="text" data-aos="flip-left" data-aos-duration="2000">
-                Hello, I'm Dylan! <br> <br>
-                I'm a self-taught front-end developer based in Bruxelles, Belgium. 
-                I can develop responsive websites from scratch and raise them into modern, user-friendly web experiences. <br> <br>
-                Transforming ideas and designs into websites has been my passion for over a year now and I want to share it with the world.
-                I have been helping various clients establish their online presence and I am always looking for new challenges. <br>
-                I am always eager to learn new technologies and improve my skills. <br>
+            <div class="text" 
+                data-aos="flip-left" 
+                data-aos-duration="2000"
+                [innerHTML]="'ABOUT.DESCRIPTION' | translate | nl2br"
+                >
             </div>
             <div class="buttonContainer" data-aos="fade-up" data-aos-duration="2000">
-                <a href="" class="readMoreButton">Read more</a>
+                <a href="" class="readMoreButton">{{ 'ABOUT.BUTTON' | translate }}</a>
             </div>
         </div>
         <div class="right">
