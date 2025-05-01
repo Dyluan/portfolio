@@ -14,28 +14,29 @@ import { TranslateModule } from '@ngx-translate/core';
   styleUrl: './skills.component.css'
 })
 export class SkillsComponent {
+
   languages = {
-    title: 'Languages',
+    title: 'SKILLS.LANGUAGES',
     skills: ['Python', 'JavaScript', 'TypeScript']
   }
   databases = {
-    title: 'Databases',
+    title: 'SKILLS.DATABASES',
     skills: ['MongoDB', 'PostgreSQL', 'SQLite']
   }
   tools = {
-    title: 'Tools',
+    title: 'SKILLS.TOOLS',
     skills: ['Git', 'VSCode', 'Postman', 'Figma', 'Google']
   }
   other = {
-    title: 'Other',
+    title: 'SKILLS.OTHER',
     skills: ['HTML', 'CSS', 'SCSS', 'scripting', 'REST']
   }
   frameworks = {
-    title: 'Frameworks',
+    title: 'SKILLS.FRAMEWORKS',
     skills: ['React', 'Angular', 'Django']
   }
   backend = {
-    title: 'Backend',
+    title: 'SKILLS.BACKEND',
     skills: ['Node.js', 'Express.js',]
   }
 }

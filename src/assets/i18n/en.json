@@ -19,7 +19,13 @@
         "ALL": "View all"
     },
     "SKILLS": {
-        "TITLE": "skills"
+        "TITLE": "skills",
+        "LANGUAGES": "Languages",
+        "DATABASES": "Databases",
+        "FRAMEWORKS": "Frameworks",
+        "TOOLS": "Tools",
+        "OTHER": "Other",
+        "BACKEND": "Backend"
     },
     "ABOUT": {
         "TITLE": "about-me",

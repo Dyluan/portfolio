@@ -1,5 +1,5 @@
 <div class="main">
-    <div class="title">{{ titleInput() }}</div>
+    <div class="title">{{ titleInput() | translate }}</div>
     <div class="description">
         @for (item of skillsInput(); track $index) {
             <div class="elem">{{ item }}</div>

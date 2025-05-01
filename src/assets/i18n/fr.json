@@ -19,7 +19,13 @@
         "ALL": "Voir plus"
     },
     "SKILLS": {
-        "TITLE": "compétences"
+        "TITLE": "compétences",
+        "LANGUAGES": "Langages",
+        "DATABASES": "Bases de données",
+        "FRAMEWORKS": "Frameworks",
+        "TOOLS": "Outils",
+        "OTHER": "Autre",
+        "BACKEND": "Backend"
     },
     "ABOUT": {
         "TITLE": "à propos",
