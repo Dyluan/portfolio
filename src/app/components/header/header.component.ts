@@ -2,6 +2,7 @@ import { Component, HostListener } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
+import { LanguageService } from '../../services/language.service';
 
 @Component({
   selector: 'app-header',
@@ -16,12 +17,10 @@ export class HeaderComponent {
 
   isDropDownOpen = false;
 
-  constructor(private translate: TranslateService) {
-    translate.setDefaultLang('en');
-  }
+  constructor(private languageService: LanguageService) {}
 
   switchLang(lang: string) {
-    this.translate.use(lang);
+    this.languageService.setLanguage(lang);
     this.isDropDownOpen = false; // Close the dropdown after selecting a language
   }
 
@@ -29,7 +28,7 @@ export class HeaderComponent {
     this.isDropDownOpen = !this.isDropDownOpen;
   }
   getCurrentLang() {
-    return this.translate.currentLang || 'en';
+    return this.languageService.getCurrentLanguage();
   }
 
   @HostListener('document:click', ['$event'])

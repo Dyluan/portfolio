@@ -50,6 +50,10 @@
 .contactButton:hover {
     background-color: rgba(199, 120, 221, 0.2);
 }
+.contactButton a {
+    text-decoration: none;
+    color: inherit;
+}
 .image1 {
     width: 155px;
     height: 155px;
