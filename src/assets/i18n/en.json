@@ -39,5 +39,17 @@
     },
     "FOOTER": {
         "DESCRIPTION": "Front-end and full-stack developer"
+    },
+    "FUN_FACTS": {
+        "FACTS": [
+            "I like bouldering",
+            "I never decline a game of chess",
+            "I love french fries",
+            "I ride my bike everyday",
+            "I am a nature lover",
+            "I find working out boring but I do it anyway",
+            "I used to hate JS",
+            "But now I like it!"
+        ]
     }
 }

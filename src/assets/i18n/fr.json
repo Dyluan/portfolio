@@ -39,5 +39,17 @@
     },
     "FOOTER": {
         "DESCRIPTION": "Développer front-end et full-stack"
+    },
+    "FUN_FACTS": {
+        "FACTS": [
+            "J'aime l'escalade",
+            "Je ne refuse jamais une partie d'échecs",
+            "J'adore les frites",
+            "Je fais du vélo tous les jours",
+            "Je suis un amoureux de la nature",
+            "Je trouve que faire du sport est ennuyeux mais je le fais quand même",
+            "Avant je détestais JS",
+            "Mais maintenant j'adore!"
+        ]
     }
 }
