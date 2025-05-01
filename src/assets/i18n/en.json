@@ -41,6 +41,7 @@
         "DESCRIPTION": "Front-end and full-stack developer"
     },
     "FUN_FACTS": {
+        "TITLE": "my-fun-facts",
         "FACTS": [
             "I like bouldering",
             "I never decline a game of chess",
