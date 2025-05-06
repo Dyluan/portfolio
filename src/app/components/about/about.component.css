@@ -96,6 +96,7 @@
 @media only screen and (max-width: 600px) {
     .main {
         padding: 16px;
+        margin-bottom: unset;
     }
     .contentContainer {
         display: flex;
@@ -107,6 +108,12 @@
     }
     .right {
         width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .img3 {
+        position: relative;
+        margin: 0;
     }
     .img4 {
         display: none;

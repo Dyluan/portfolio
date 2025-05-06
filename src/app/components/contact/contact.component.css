@@ -80,3 +80,25 @@
     text-decoration: none;
     color: #ABB2BF;
 }
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 16px;
+        /* padding-top: 170px; */
+        margin-top: 112px;
+    }
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+}
