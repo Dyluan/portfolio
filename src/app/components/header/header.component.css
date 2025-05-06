@@ -106,6 +106,10 @@
     background-color: rgba(199, 120, 221, 0.2);
 }
 
+.menuIcon {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .main {
         padding: 16px;
@@ -115,5 +119,8 @@
     }
     .languageSelector {
         display: none;
+    }
+    .menuIcon {
+        display: block;
     }
 }
