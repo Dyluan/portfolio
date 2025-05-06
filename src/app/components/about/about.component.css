@@ -92,3 +92,24 @@
     height: 1px;
     background-color: #C778DD;
 }
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 16px;
+    }
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+    .img4 {
+        display: none;
+    }
+
+}

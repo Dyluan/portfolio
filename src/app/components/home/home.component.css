@@ -181,4 +181,7 @@
     .subTitle {
         max-width: 100%;
     }
+    .title {
+        min-height: 84px;
+    }
 }
