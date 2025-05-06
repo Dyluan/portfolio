@@ -128,3 +128,57 @@
     font-size: 32px;
     border-top: none;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 16px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttonContainer {
+        display: none;
+    }
+    .left {
+        width: 100%;
+        text-align: center;
+    }
+    .right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+    }
+    .imageCentrale {
+        position: relative;
+        left: unset;
+        right: unset;
+    }
+    .imageCentrale img {
+        max-width: 100%;
+        height: auto;
+        z-index: 1000;
+    }
+    .image1 {
+        left: 50px;
+        top: 0px;
+    }
+    .image1 img {
+        max-width: 100%;
+        height: auto;
+    }
+    .image2 {
+        left: 330px;
+    }
+    .image2 img {
+        max-width: 100%;
+        height: auto;
+    }
+    .subTitle {
+        max-width: 100%;
+    }
+}
