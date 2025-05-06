@@ -72,3 +72,23 @@
     color: #ABB2BF;
     margin-bottom: 32px;
 }
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 16px;
+    }
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 32px;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+        margin-top: 32px;
+    }
+}
