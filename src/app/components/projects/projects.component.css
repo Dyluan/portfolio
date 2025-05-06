@@ -32,13 +32,18 @@
     width: 90%;
     height: 2px;
     background-color: #C778DD;
-    margin: 0 210px 0 16px;
+    /* margin: 0 210px 0 16px; */
 
     max-width: 589px;
+    min-width: 30vw;
+    margin-left: 16px;
 }
 .browse {
     font-size: 16px;
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .contentContainer {
     width: 100%;
@@ -66,4 +71,21 @@
     gap: 16px;
 
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 16px;
+    }
+    .purpleLine {
+        width: 20vw;
+        max-width: 30vw;
+        margin: 0;
+        margin-left: 16px;
+        min-width: unset;
+    }
+    .leftImg, .rightImg {
+        display: none;
+    }
+
 }
