@@ -17,14 +17,14 @@ export class ProjectsComponent {
     title: 'Todo List',
     description: 'A simple todo list made with Angular',
     url: 'https://github.com/Dyluan/Todo-Angular',
-    technologies: ['Angular', 'HTML', 'CSS',],
+    technologies: ['Angular', 'HTML', 'CSS', 'TypeScript'],
   };
   project2 = {
     imgSrc: '/img/portfolio.PNG',
     title: 'My Portfolio website',
     description: "You're looking at it right now!",
     url: 'https://github.com/Dyluan/portfolio',
-    technologies: ['Angular', 'HTML', 'CSS',],
+    technologies: ['Angular', 'HTML', 'CSS', 'TypeScript'],
     };
   project3 = {
     imgSrc: '/img/test.jpg',

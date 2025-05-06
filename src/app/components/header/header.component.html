@@ -1,40 +1,47 @@
-<div class="main">
-    <div class="left">
-        <div class="logo">
-            <img src="/img/logo.svg" alt="logo">
+@if (!isMenuOpen) {
+    <div class="main">
+        <div class="left">
+            <div class="logo">
+                <img src="/img/logo.svg" alt="logo">
+            </div>
+            <div class="name">Dylan</div>
         </div>
-        <div class="name">Dylan</div>
-    </div>
-    <div class="right">
-        <div class="rightElem">
-            <div class="hashtag">#</div>
-            <a href="#home">{{ 'HEADER.HOME' | translate }}</a>
-        </div>
-        <div class="rightElem">
-            <div class="hashtag">#</div>
-            <a href="#projects">{{ 'HEADER.PROJECTS' | translate }}</a>
-        </div>
-        <div class="rightElem">
-            <div class="hashtag">#</div>
-            <a href="#skills">{{ 'HEADER.SKILLS' | translate }}</a>
-        </div>
-        <div class="rightElem">
-            <div class="hashtag">#</div>
-            <a href="#about">{{ 'HEADER.ABOUT' | translate }}</a>
-        </div>
-        <div class="rightElem">
-            <div class="hashtag">#</div>
-            <a href="#contact">{{ 'HEADER.CONTACT' | translate }}</a>
-        </div>
-        <div class="languageSelector">
-            <button class="dropbtn" (click)="toggleDropDown()">
-                {{ getCurrentLang() | uppercase }}
-                <span class="arrow">▼</span>
-            </button>
-            <div class="dropdown-content" [class.show]="isDropDownOpen">
-                <button (click)="switchLang('en')">EN</button>
-                <button (click)="switchLang('fr')">FR</button>
+        <div class="right">
+            <div class="rightElem">
+                <div class="hashtag">#</div>
+                <a href="#home">{{ 'HEADER.HOME' | translate }}</a>
+            </div>
+            <div class="rightElem">
+                <div class="hashtag">#</div>
+                <a href="#projects">{{ 'HEADER.PROJECTS' | translate }}</a>
+            </div>
+            <div class="rightElem">
+                <div class="hashtag">#</div>
+                <a href="#skills">{{ 'HEADER.SKILLS' | translate }}</a>
+            </div>
+            <div class="rightElem">
+                <div class="hashtag">#</div>
+                <a href="#about">{{ 'HEADER.ABOUT' | translate }}</a>
+            </div>
+            <div class="rightElem">
+                <div class="hashtag">#</div>
+                <a href="#contact">{{ 'HEADER.CONTACT' | translate }}</a>
+            </div>
+            <div class="languageSelector">
+                <button class="dropbtn" (click)="toggleDropDown()">
+                    {{ getCurrentLang() | uppercase }}
+                    <span class="arrow">▼</span>
+                </button>
+                <div class="dropdown-content" [class.show]="isDropDownOpen">
+                    <button (click)="switchLang('en')">EN</button>
+                    <button (click)="switchLang('fr')">FR</button>
+                </div>
+            </div>
+            <div class="menuIcon">
+                <img src="/img/menuIcon.png" alt="menu Icon" (click)="toggleMenu()" />
             </div>
         </div>
     </div>
-</div>
+} @else {
+    <app-burger-menu (menuStateChange)="handleMenuStateChange($event)"></app-burger-menu>
+}

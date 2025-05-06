@@ -1,14 +1,15 @@
 import { Component, HostListener } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 import { LanguageService } from '../../services/language.service';
+import { BurgerMenuComponent } from '../burger-menu/burger-menu.component';
 
 @Component({
   selector: 'app-header',
   imports: [
     TranslateModule,
     CommonModule,
+    BurgerMenuComponent,
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
@@ -16,6 +17,7 @@ import { LanguageService } from '../../services/language.service';
 export class HeaderComponent {
 
   isDropDownOpen = false;
+  isMenuOpen = false;
 
   constructor(private languageService: LanguageService) {}
 
@@ -38,4 +40,13 @@ export class HeaderComponent {
             this.isDropDownOpen = false;
         }
     }
+
+  //this is relative to the burger menu
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+    console.log('Menu toggled:');
+  }
+  handleMenuStateChange(isOpen: boolean) {
+    this.isMenuOpen = isOpen;
+  }
 }

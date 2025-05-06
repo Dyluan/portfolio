@@ -1,0 +1,61 @@
+<div class="main">
+    <div class="header">
+        <div class="left">
+            <div class="logo">
+                <img src="/img/logo.svg" alt="logo image">
+            </div>
+            <div class="name">Dylan</div>
+        </div>
+        <div class="right">
+            <img src="/img/cross.png" alt="cross image" (click)="closeMenu()">
+        </div>
+    </div>
+    <div class="container">
+        <div class="elem">
+            <div class="hashtag">#</div>
+            <a href="#home" (click)="closeMenu()">{{ 'HEADER.HOME' | translate }}</a>
+        </div>
+        <div class="elem">
+            <div class="hashtag">#</div>
+            <a href="#projects" (click)="closeMenu()">{{ 'HEADER.PROJECTS' | translate }}</a>
+        </div>
+        <div class="elem">
+            <div class="hashtag">#</div>
+            <a href="#skills" (click)="closeMenu()">{{ 'HEADER.SKILLS' | translate }}</a>
+        </div>
+        <div class="elem">
+            <div class="hashtag">#</div>
+            <a href="#about" (click)="closeMenu()">{{ 'HEADER.ABOUT' | translate }}</a>
+        </div>
+        <div class="elem">
+            <div class="hashtag">#</div>
+            <a href="#contact" (click)="closeMenu()">{{ 'HEADER.CONTACT' | translate }}</a>
+        </div>
+        <div class="elem">
+            <div class="hashtag">#</div>
+            <a href="#home" (click)="closeMenu()">{{ 'HEADER.HOME' | translate }}</a>
+        </div>
+        <div class="languageSelector">
+            <button class="dropbtn" (click)="toggleDropDown()">
+                {{ getCurrentLang() | uppercase }}
+                <span class="arrow">▼</span>
+            </button>
+            <div class="dropdown-content" [class.show]="isDropDownOpen">
+                <button (click)="switchLang('en')">EN</button>
+                <button (click)="switchLang('fr')">FR</button>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="imgContainer">
+            <a href="https://github.com/Dyluan" target="_blank">
+                <img src="/img/github.svg" alt="github logo">
+            </a>
+        </div>
+        <div class="imgContainer">
+            <a href="https://www.linkedin.com/in/dylan-jonckheere/" target="_blank">
+                <img src="/img/linkedin.svg" alt="linkedin logo">
+            </a>
+        </div>
+    </div>
+</div>
