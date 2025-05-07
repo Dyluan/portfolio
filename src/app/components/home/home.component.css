@@ -185,3 +185,39 @@
         min-height: 84px;
     }
 }
+@media only screen and (max-width: 768px) {
+    .main {
+        padding: 32px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 64px;
+    }
+    .image1 {
+        left: 150px;
+    }
+    .image2 {
+        left: 435px;
+    }
+    .subTitle {
+        max-width: 80%;
+    }
+    .quoteContainer {
+        margin-top: 64px;
+    }
+
+}
