@@ -118,5 +118,13 @@
     .img4 {
         display: none;
     }
-
+}
+@media only screen and (max-width: 768px) {
+    .main {
+        padding: 32px;
+        margin-bottom: 96px;
+    }
+    .img4 {
+        display: none;
+    }
 }

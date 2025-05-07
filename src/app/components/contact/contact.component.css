@@ -100,5 +100,21 @@
         width: 100%;
         margin-top: 32px;
     }
-
+}
+@media only screen and (max-width: 768px) {
+    .main {
+        padding: 32px;
+        /* margin-top: 112px; */
+    }
+    .left {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .right {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .linksContainer {
+        max-width: 100%;
+    }
 }

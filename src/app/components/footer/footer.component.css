@@ -74,6 +74,23 @@
     margin-bottom: 32px;
 }
 
+
+@media only screen and (max-width: 768px) {
+    .main {
+        padding: 32px;
+    }
+    .left {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    .right {
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .main {
         padding: 16px;
@@ -82,7 +99,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         margin-bottom: 32px;
     }
     .left {
@@ -92,7 +109,7 @@
         width: 100%;
         margin-top: 32px;
     }
-    .nameAddress {
-        display: none;
+    .firstLine {
+        justify-content: space-between;
     }
 }
