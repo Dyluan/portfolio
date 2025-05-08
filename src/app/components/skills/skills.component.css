@@ -30,6 +30,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 48px;
 }
 .left {
     width: 50%;
@@ -47,31 +48,16 @@ app-tag-cloud {
     display: block;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
     .main {
-        padding: 16px;
-    }
-    .contentContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .left {
-        width: 100%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
+        padding: 64px;
+        margin-bottom: unset;
     }
     .right {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 0;
+        padding: unset;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .main {
         padding: 32px;
@@ -99,5 +85,31 @@ app-tag-cloud {
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 16px;
+    }
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .right {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
     }
 }

@@ -73,21 +73,21 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
     .main {
-        padding: 16px;
+        padding: 64px;
+        margin-bottom: unset;
     }
-    .purpleLine {
-        width: 20vw;
-        max-width: 30vw;
-        margin: 0;
-        margin-left: 16px;
-        min-width: unset;
+    .rightImg {
+        right: -64px;
+        top: 200px;
     }
-    .leftImg, .rightImg {
-        display: none;
+    .leftImg {
+        left: -64px;
+        top: 0px;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .main {
         padding: 32px;
@@ -102,5 +102,21 @@
     .purpleLine {
         width: 45vw;
         margin: 0 0 0 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 16px;
+    }
+    .purpleLine {
+        width: 20vw;
+        max-width: 30vw;
+        margin: 0;
+        margin-left: 16px;
+        min-width: unset;
+    }
+    .leftImg, .rightImg {
+        display: none;
     }
 }

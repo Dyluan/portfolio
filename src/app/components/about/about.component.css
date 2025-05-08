@@ -30,6 +30,8 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    /* margin should be 48px but doesnt render right that way */
+    margin-top: 24px; 
 }
 .left {
     width: 50%;
@@ -92,6 +94,32 @@
     height: 1px;
     background-color: #C778DD;
 }
+@media only screen and (max-width: 1024px) {
+    .main {
+        padding: 64px;
+        margin-bottom: unset;
+    }
+    .img4 {
+        display: none;
+    }
+    .leftImg {
+        left: -80px;
+        top: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        padding: 32px;
+        margin-bottom: unset;
+    }
+    .img4 {
+        display: none;
+    }
+    .leftImg {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .main {
@@ -118,13 +146,7 @@
     .img4 {
         display: none;
     }
-}
-@media only screen and (max-width: 768px) {
-    .main {
-        padding: 32px;
-        margin-bottom: 96px;
-    }
-    .img4 {
+    .leftImg {
         display: none;
     }
 }

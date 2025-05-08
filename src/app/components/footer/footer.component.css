@@ -74,6 +74,17 @@
     margin-bottom: 32px;
 }
 
+@media only screen and (max-width: 1024px) {
+    .main {
+        padding: 64px;
+    }
+    .line {
+        margin: unset;
+    }
+    .right {
+        width: fit-content;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .main {
