@@ -7,8 +7,8 @@
             <div class="techno">{{ techno }}</div>
         }
     </div>
-    <div class="projectTitle">{{ titleInput() }}</div>
-    <div class="projectDescription">{{ descriptionInput() }}</div>
+    <div class="projectTitle">{{ titleInput() | translate }}</div>
+    <div class="projectDescription">{{ descriptionInput() | translate }}</div>
     <div class="urlContainer">
         <a [href]="urlInput()" class="url" target="_blank">Live</a>
     </div>

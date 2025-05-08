@@ -16,7 +16,19 @@
     },
     "PROJECTS": {
         "TITLE": "projets",
-        "ALL": "Voir plus"
+        "ALL": "Voir plus",
+        "TODO": {
+            "TITLE": "Todo List",
+            "DESCRIPTION": "Une simple liste de tâches réalisée avec Angular"
+        },
+        "PORTFOLIO": {
+            "TITLE": "Ce site",
+            "DESCRIPTION": "Tu navigues dessus actuellement :)"
+        },
+        "IMMO": {
+            "TITLE": "LogeFinder",
+            "DESCRIPTION": "Ce projet est une application web qui permet aux utilisateurs de rechercher des annonces immobilières en Belgique."
+        }
     },
     "SKILLS": {
         "TITLE": "compétences",

@@ -135,4 +135,7 @@
     .firstLine {
         justify-content: space-between;
     }
+    .title {
+        display: none;
+    }
 }
