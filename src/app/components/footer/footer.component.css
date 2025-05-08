@@ -81,10 +81,7 @@
 
 @media only screen and (max-width: 1280px) {
     .main {
-        padding: 128px 128px 64px 128px;
-    }
-    .line {
-        margin: unset;
+        padding: 0px 128px 0px 128px;
     }
     .right {
         width: fit-content;
@@ -93,11 +90,9 @@
 
 @media only screen and (max-width: 1024px) {
     .main {
-        padding: 64px;
+        padding: 0px 64px 0px 64px;
     }
-    .line {
-        margin: unset;
-    }
+
     .right {
         width: fit-content;
     }
@@ -105,7 +100,7 @@
 
 @media only screen and (max-width: 768px) {
     .main {
-        padding: 32px;
+        padding: 0px 32px 0px 32px;
     }
     .left {
         display: flex;
@@ -121,7 +116,7 @@
 
 @media only screen and (max-width: 600px) {
     .main {
-        padding: 16px;
+        padding: 0px 16px 0px 16px;
     }
     .contentContainer {
         display: flex;
