@@ -48,6 +48,19 @@ app-tag-cloud {
     display: block;
 }
 
+@media only screen and (max-width: 1280px) {
+    .main {
+        padding: 128px;
+        margin-bottom: unset;
+    }
+    .right {
+        padding: unset;
+        width: fit-content;
+        max-width: 50%;
+        gap: 32px;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .main {
         padding: 64px;

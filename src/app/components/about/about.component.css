@@ -94,6 +94,22 @@
     height: 1px;
     background-color: #C778DD;
 }
+
+@media only screen and (max-width: 1280px) {
+    .main {
+        padding: 128px;
+        margin-bottom: unset;
+    }
+    .leftImg {
+        left: -128px;
+        top: 30px;
+    }
+    .img4 {
+        right: -128px;
+        left: unset;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .main {
         padding: 64px;

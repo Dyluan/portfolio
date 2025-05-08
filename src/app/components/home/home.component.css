@@ -28,6 +28,7 @@
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 32px;
+    min-height: 84px;
 }
 .purple {
     color: #C778DD;
@@ -129,12 +130,15 @@
     border-top: none;
 }
 
+@media only screen and (max-width: 1280px) {
+    .main {
+        padding: 128px 128px 85px 128px;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .main {
         padding: 170px 64px 85px 64px;
-    }
-    .title {
-        min-height: 84px;
     }
     .image2 {
         left: 300px;
@@ -229,7 +233,5 @@
     .subTitle {
         max-width: 100%;
     }
-    .title {
-        min-height: 84px;
-    }
+
 }
