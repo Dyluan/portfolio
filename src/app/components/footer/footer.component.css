@@ -73,6 +73,11 @@
     color: #ABB2BF;
     margin-bottom: 32px;
 }
+.mediaLinks img {
+    width: 32px;
+    height: 32px;
+    gap: 8px;
+}
 
 @media only screen and (max-width: 1280px) {
     .main {

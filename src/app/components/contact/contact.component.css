@@ -116,6 +116,9 @@
     .linksContainer {
         max-width: 100%;
     }
+    .leftImg {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {

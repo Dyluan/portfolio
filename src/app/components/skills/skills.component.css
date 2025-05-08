@@ -68,6 +68,7 @@ app-tag-cloud {
     }
     .right {
         padding: unset;
+        justify-content: center;
     }
 }
 
@@ -98,6 +99,7 @@ app-tag-cloud {
         flex-wrap: wrap;
         width: 100%;
         justify-content: center;
+        max-width: unset;
     }
 }
 
