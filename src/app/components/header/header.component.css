@@ -110,18 +110,12 @@
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
     .main {
-        padding: 16px;
+        padding: 32px 64px 24px 64px;
     }
-    .rightElem {
-        display: none;
-    }
-    .languageSelector {
-        display: none;
-    }
-    .menuIcon {
-        display: block;
+    .right {
+        gap: 24px;
     }
 }
 
@@ -134,5 +128,20 @@
     }
     .dropbtn {
         padding: unset;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 16px;
+    }
+    .rightElem {
+        display: none;
+    }
+    .languageSelector {
+        display: none;
+    }
+    .menuIcon {
+        display: block;
     }
 }

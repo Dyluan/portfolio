@@ -129,6 +129,14 @@
     border-top: none;
 }
 
+@media only screen and (max-width: 1024px) {
+    .main {
+        padding: 170px 32px;
+    }
+    .title {
+        min-height: 84px;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .main {
