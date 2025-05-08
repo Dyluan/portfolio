@@ -35,6 +35,7 @@
     flex-direction: row;
     
     position: relative;
+    flex-wrap: wrap;
 }
 .left {
     width: 50%;
@@ -83,4 +84,52 @@
     position: absolute;
     left: -170px;
     top: 50px;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .main {
+        padding: 128px;
+        margin-bottom: unset;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main {
+        padding: 64px;
+    }
+    .img3 {
+        left: unset;
+        right: -64px;
+    }
+    .leftImg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        padding: 32px;
+    }
+    .img3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+    .contentContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        display: none;
+    }
 }
