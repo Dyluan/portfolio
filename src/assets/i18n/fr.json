@@ -5,7 +5,12 @@
         "CONTACT": "Contactez-moi!!",
         "CURRENT_WORK": "Actuellement occupé à ",
         "CURRENT_SITUATION": "apprendre .NET",
-        "QUOTE" : "De grands pouvoirs impliquent de grandes factures d'électricité"
+        "QUOTE" : "De grands pouvoirs impliquent de grandes factures d'électricité",
+        "ROLES": {
+            "FRONTEND": "développeur front-end",
+            "FULLSTACK": "développeur full-stack",
+            "CREATIVE": "développeur créatif"
+        }
     },
     "HEADER": {
         "HOME": "accueil",

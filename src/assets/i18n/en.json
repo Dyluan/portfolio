@@ -5,7 +5,12 @@
         "CONTACT": "Contact me!!",
         "CURRENT_WORK": "Currently working on",
         "CURRENT_SITUATION": "learning .NET",
-        "QUOTE" : "With great power comes great electricity bills"
+        "QUOTE" : "With great power comes great electricity bills",
+        "ROLES": {
+            "FRONTEND": "front-end developer",
+            "FULLSTACK": "full-stack developer",
+            "CREATIVE": "creative developer"
+        }
     },
     "HEADER": {
         "HOME": "home",
