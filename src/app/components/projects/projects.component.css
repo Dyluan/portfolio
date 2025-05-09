@@ -46,6 +46,10 @@
     flex-direction: row;
     align-items: center;
 }
+.browse a {
+    color: white;
+    text-decoration: none;
+}
 .contentContainer {
     width: 100%;
     display: flex;

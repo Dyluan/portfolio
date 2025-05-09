@@ -25,9 +25,10 @@ export class ProjectsComponent {
     description: "PROJECTS.PORTFOLIO.DESCRIPTION",
     url: 'https://github.com/Dyluan/portfolio',
     technologies: ['Angular', 'HTML', 'CSS', 'TypeScript'],
+    isLive: true,
     };
   project3 = {
-    imgSrc: '/img/immoCapture.PNG',
+    imgSrc: '/img/immo.PNG',
     title: 'PROJECTS.IMMO.TITLE',
     description: 'PROJECTS.IMMO.DESCRIPTION',
     url: 'https://github.com/Dyluan/logeFinder',

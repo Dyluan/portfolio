@@ -48,3 +48,12 @@
 .url:hover {
     background-color: rgba(199, 120, 221, 0.2);
 }
+.urlCached {
+    padding: 8px 16px;
+    border: 1px solid #ABB2BF;
+    text-decoration: none;
+    color: #ABB2BF;
+}
+.urlCached:hover {
+    background-color: rgba(171, 178, 191, 0.2);
+}

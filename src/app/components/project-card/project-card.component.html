@@ -9,7 +9,13 @@
     </div>
     <div class="projectTitle">{{ titleInput() | translate }}</div>
     <div class="projectDescription">{{ descriptionInput() | translate }}</div>
-    <div class="urlContainer">
-        <a [href]="urlInput()" class="url" target="_blank">Live</a>
-    </div>
+    @if (isLive()) {
+        <div class="urlContainer">
+            <a [href]="urlInput()" class="url" target="_blank">Live</a>
+        </div>
+    } @else {
+        <div class="urlContainer">
+            <a [href]="urlInput()" class="urlCached" target="_blank">Cached</a>
+        </div>
+    }
 </div>

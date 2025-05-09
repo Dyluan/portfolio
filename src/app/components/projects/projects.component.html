@@ -6,7 +6,7 @@
             <div class="purpleLine"></div>
         </div>
         <!-- <div class="purpleLine"></div> -->
-        <div class="browse">{{ 'PROJECTS.ALL' | translate }} =></div>
+        <div class="browse"><a href="https://github.com/Dyluan" target="_blank">{{ 'PROJECTS.ALL' | translate }} =></a></div>
     </div>
     <div class="contentContainer">
         <div class="leftImg" data-aos="zoom-in" data-aos-duration="1000">
@@ -27,6 +27,7 @@
             [imgSrcInput]="project2.imgSrc" 
             [technologiesInput]="project2.technologies" 
             [urlInput]="project2.url" 
+            [isLive]="project2.isLive"
             data-aos="flip-right" data-aos-duration="1000" data-aos-delay="200"
             />
             <app-project-card 
