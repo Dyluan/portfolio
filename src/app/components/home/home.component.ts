@@ -51,9 +51,10 @@ export class HomeComponent implements AfterViewInit, OnDestroy{
     this.typeItInstance = new TypeIt('#animated-text', {
       speed: 100,
       loop: true,
-      breakLines: false,
+      breakLines: true,
       startDelete: true,
       waitUntilVisible: true,
+      nextStringDelay: 1000,
     })
     .type(titles[0])
     .pause(1500)
