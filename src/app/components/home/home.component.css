@@ -28,7 +28,8 @@
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 32px;
-    min-height: 84px;
+    min-height: 126px;
+    max-width: 100%;
 }
 .purple {
     color: #C778DD;
