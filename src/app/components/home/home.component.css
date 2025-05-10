@@ -144,6 +144,9 @@
     .image2 {
         left: 300px;
     }
+    .contentContainer {
+        gap: 16px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
