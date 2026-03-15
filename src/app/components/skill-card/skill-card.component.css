@@ -3,6 +3,12 @@
     width: 178px;
     color: white;
     font-weight: 600;
+    transition: 1s;
+}
+.main:hover {
+    
+    transform: rotate(20deg);
+    border-color: #C778DD;
 }
 .title {
     border-bottom: 1px solid #ABB2BF;
