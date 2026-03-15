@@ -13,11 +13,11 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class ProjectsComponent {
   project1 = {
-    imgSrc: '/img/angularTodo.PNG',
+    imgSrc: '/img/board_screenshot.png',
     title: 'PROJECTS.TODO.TITLE',
     description: 'PROJECTS.TODO.DESCRIPTION',
-    url: 'https://github.com/Dyluan/Todo-Angular',
-    technologies: ['Angular', 'HTML', 'CSS', 'TypeScript'],
+    url: 'https://github.com/Dyluan/Tasks-management-App',
+    technologies: ['React', 'HTML', 'CSS', 'Express', 'PostgreSQL', 'OAUTH', 'JWT'],
   };
   project2 = {
     imgSrc: '/img/portfolio.PNG',

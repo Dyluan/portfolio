@@ -42,20 +42,20 @@
 
     max-width: 463px;
 }
-.contactButton {
-    border-color: #C778DD;
+
+.newButton {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #C778DD;
     background-color: transparent;
     color: white;
     padding: 8px 16px;
     cursor: pointer;
 }
-.contactButton:hover {
+.newButton:hover {
     background-color: rgba(199, 120, 221, 0.2);
 }
-.contactButton a {
-    text-decoration: none;
-    color: inherit;
-}
+
 .image1 {
     width: 155px;
     height: 155px;

@@ -23,8 +23,8 @@
         "TITLE": "projets",
         "ALL": "Voir plus",
         "TODO": {
-            "TITLE": "Todo List",
-            "DESCRIPTION": "Une simple liste de tâches réalisée avec Angular"
+            "TITLE": "Application de management",
+            "DESCRIPTION": "Une application de management inspirée de Trello, construite avec React et Express. Organise tes projets, seul ou avec d'autres membres, avec des espaces de travail partagés, des tableaux, des colonnes et des cartes, le tout avec un système de drag-and-drop intuitif."
         },
         "PORTFOLIO": {
             "TITLE": "Ce site",

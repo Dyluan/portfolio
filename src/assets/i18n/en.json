@@ -23,8 +23,8 @@
         "TITLE": "projects",
         "ALL": "View all",
         "TODO": {
-            "TITLE": "Todo List",
-            "DESCRIPTION": "A simple todo list made using Angular"
+            "TITLE": "Task Management App",
+            "DESCRIPTION": "A full-stack Trello-inspired task management application built with React and Express.js. Organize your work, alone or with team members, with workspaces, boards, columns, and cards using an intuitive drag-and-drop interface."
         },
         "PORTFOLIO": {
             "TITLE": "This Website",
