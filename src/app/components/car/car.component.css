@@ -1,0 +1,83 @@
+.canvas-container {
+  width: 100%;
+  /* height: 200px; */
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.canvas-container canvas {
+  display: block;
+  height: 100%;
+}
+canvas {
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 170px 0px 170px;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 26px;
+}
+
+.purple {
+  color: #C778DD;
+}
+
+.titleName {
+  letter-spacing: 3%;
+}
+
+.purpleLine {
+  width: 10%;
+  height: 2px;
+  background-color: #C778DD;
+  margin-left: 16px;
+}
+
+.mainContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.left {
+  position: relative;
+}
+
+.right {
+  font-size: 16px;
+  color: #ABB2BF;
+  line-height: 26px;
+  margin-bottom: 162px;
+}
+
+.icons {
+  position: absolute;
+  top: 16px;
+  right: 20%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.icons img {
+  height: 32px;
+  width: 32px;
+}

@@ -69,5 +69,10 @@
             "Avant je détestais JS",
             "Mais maintenant j'adore!"
         ]
+    },
+    "GOALS": {
+        "TITLE": "mes objectifs",
+        "DESCRIPTION1": "Mon objectif actuel est d'économiser assez d'argent pour pouvoir m'acheter une vieille BMW et de la restaurer pendant mon temps libre.",
+        "DESCRIPTION2": "Mon deuxième objectif est de vous impressionner assez pour que vous vouliez travailler avec moi, ce qui me rapprochera un peu plus de mon premier objectif :)"
     }
 }

@@ -22,6 +22,7 @@
     "@ngx-translate/http-loader": "^16.0.1",
     "aos": "^2.3.4",
     "rxjs": "~7.8.0",
+    "three": "^0.183.2",
     "tslib": "^2.3.0",
     "typeit": "^8.8.7",
     "zone.js": "~0.15.0"
@@ -32,6 +33,7 @@
     "@angular/compiler-cli": "^19.1.0",
     "@types/aos": "^3.0.7",
     "@types/jasmine": "~5.1.0",
+    "@types/three": "^0.183.1",
     "jasmine-core": "~5.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
