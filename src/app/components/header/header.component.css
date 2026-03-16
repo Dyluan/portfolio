@@ -54,7 +54,10 @@
     text-decoration: none;
     color: #ABB2BF;
 }
-
+.rightElem a:hover {
+    color: white;
+    transform: translateY(-1px);
+}
 
 .languageSelector {
     position: relative;
@@ -70,6 +73,10 @@
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+.dropbtn:hover {
+    color: white;
 }
 
 .arrow {

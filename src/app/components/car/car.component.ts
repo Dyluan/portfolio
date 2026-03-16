@@ -21,6 +21,7 @@ export class CarComponent implements AfterViewInit, OnDestroy {
   private controls!: OrbitControls;
   private cube!: THREE.Mesh;
   private animationId!: number;
+  private resizeObserver!: ResizeObserver;
 
   ngAfterViewInit(): void {
     this.initThree();
@@ -40,7 +41,9 @@ export class CarComponent implements AfterViewInit, OnDestroy {
     if (this.renderer) {
       this.renderer.dispose();
     }
-    window.removeEventListener('resize', this.onWindowResize);
+    if (this.resizeObserver) {
+      this.resizeObserver.disconnect();
+    }
   }
 
   private initThree(): void {
@@ -69,8 +72,9 @@ export class CarComponent implements AfterViewInit, OnDestroy {
     this.controls.enableZoom = true;
     this.controls.enablePan = true;
 
-    // Handle window resize
-    window.addEventListener('resize', this.onWindowResize.bind(this));
+    // Handle container resize
+    this.resizeObserver = new ResizeObserver(() => this.onContainerResize());
+    this.resizeObserver.observe(container);
   }
 
   private async createScene(): Promise<void> {
@@ -127,13 +131,14 @@ export class CarComponent implements AfterViewInit, OnDestroy {
 
 
 
-  private onWindowResize = (): void => {
+  private onContainerResize(): void {
     const container = this.canvasContainer.nativeElement;
     const width = container.clientWidth;
     const height = container.clientHeight;
+    if (width === 0 || height === 0) return;
 
     this.camera.aspect = width / height;
     this.camera.updateProjectionMatrix();
     this.renderer.setSize(width, height);
-  };
+  }
 }

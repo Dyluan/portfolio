@@ -80,6 +80,9 @@
     border: 1px solid #ABB2BF;
     width: fit-content;
 }
+.elem:hover {
+    color: white;
+}
 .leftImg {
     position: absolute;
     left: -170px;
