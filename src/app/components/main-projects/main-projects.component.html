@@ -1,0 +1,36 @@
+<div class="main">
+  <div class="titleContainer">
+    <div class="slash">/</div>
+    <div class="mainTitle">projects</div>
+  </div>
+  <div class="subTitle">
+    List of my projects
+  </div>
+  <div class="completeContainer">
+    <div class="hashtag">#</div>
+    <div class="title">complete-apps</div>
+  </div>
+  <div class="projectsContainer">
+    @for (project of mainProjects; track $index) {
+      <div class="project">
+        <app-project-card 
+          [titleInput]="project.title"
+          [descriptionInput]="project.description"
+          [imgSrcInput]="project.imgSrc"
+          [urlInput]="project.url"
+          [technologiesInput]="project.technologies"
+          [isLive]="project.isLive"
+        />
+      </div>
+    }
+  </div>
+  <div class="smallProjectsContainer">
+    <div class="titleContainer">
+      <div class="hashtag">#</div>
+      <div class="title">small-projects</div>
+    </div>
+  </div>
+  <div class="projectsContainer">
+    
+  </div>
+</div>
