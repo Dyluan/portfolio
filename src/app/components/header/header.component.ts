@@ -3,6 +3,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { CommonModule } from '@angular/common';
 import { LanguageService } from '../../services/language.service';
 import { BurgerMenuComponent } from '../burger-menu/burger-menu.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -10,6 +11,7 @@ import { BurgerMenuComponent } from '../burger-menu/burger-menu.component';
     TranslateModule,
     CommonModule,
     BurgerMenuComponent,
+    RouterLink,
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'

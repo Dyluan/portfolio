@@ -45,5 +45,36 @@ export class MainProjectsComponent {
       technologies: ['Node.js', 'Express', 'Angular', 'TypeScript', 'HTML', 'CSS'],
       isLive: false,
     }
+  ];
+
+  smallProjects = [
+    {
+      title: 'Ant vs Bees',
+      description: 'GUI game made with Python, one of my first project',
+      url: 'https://github.com/Dyluan/AntsVsBees',
+      technologies: ['Python'],
+      isLive: false
+    },
+    {
+      title: '512',
+      description: 'Adaptation of the famous 2048 mobile game. Made in React.',
+      url: 'https://github.com/Dyluan/512-React',
+      technologies: ['React', 'HTML', 'CSS'],
+      isLive: false
+    },
+    {
+      title: 'Todo list',
+      description: 'Simple todo list, with a back-end for persistent data. First app made with .NET',
+      url: 'https://github.com/Dyluan/Todo-list/tree/main',
+      technologies: ['React', 'HTML', 'CSS', 'ASP.NET Core'],
+      isLive: false
+    },
+    {
+      title: 'Santé Globale',
+      description: "Doctor's office webpage that I made for a client in Bruxelles",
+      url: 'https://github.com/Dyluan/Sant-Globale',
+      technologies: ['Angular', 'HTML', 'CSS'],
+      isLive: false
+    }
   ]
 }

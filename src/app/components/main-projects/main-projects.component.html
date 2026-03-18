@@ -31,6 +31,16 @@
     </div>
   </div>
   <div class="projectsContainer">
-    
+    @for (project of smallProjects; track $index) {
+      <div class="project">
+        <app-project-card 
+          [titleInput]="project.title"
+          [descriptionInput]="project.description"
+          [urlInput]="project.url"
+          [technologiesInput]="project.technologies"
+          [isLive]="project.isLive"
+        />
+      </div>
+    }
   </div>
 </div>
