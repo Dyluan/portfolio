@@ -94,5 +94,11 @@
         "TITLE": "my goals",
         "DESCRIPTION1": "My current goal is to save enough money to buy an old BMW and restore it during my free time.",
         "DESCRIPTION2": "My second goal is to impress you enough that you want to work with me, which will bring me closer to my first goal!"
+    },
+    "PROJECTPAGE": {
+        "TITLE": "projects",
+        "DESCRIPTION": "List of my projects",
+        "COMPLETE": "complete-apps",
+        "SMALL": "small-projects"
     }
 }
