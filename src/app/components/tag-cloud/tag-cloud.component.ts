@@ -15,8 +15,8 @@ interface TagPosition {
 })
 export class TagCloudComponent implements OnInit{
   tags: string[] = [
-    'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Angular', 'Node.js',
-    'React', 'Python', 'Django', 'HTML', 'Express', 'MongoDB', 'SQL', 'Tailwind'
+    'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Angular', 'Node.js', 'PostgreSQL',
+    'React', 'Python', 'Django', 'Express', 'MongoDB', 'SQL', 'Tailwind'
   ];
   tagPositions: TagPosition[] = [];
 

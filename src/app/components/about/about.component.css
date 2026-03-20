@@ -5,6 +5,13 @@
     padding: 0px 170px 0px 170px;
     margin-bottom: 266px;
 }
+.notMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 160px 170px 0px 170px;
+    margin-bottom: 266px;
+}
 .topContainer {
     display: flex;
     flex-direction: row;

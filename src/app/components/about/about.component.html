@@ -1,6 +1,10 @@
-<div class="main" id="about">
+<div [className]="mainClassName" id="about">
     <div class="topContainer">
-        <span class="purple">#</span>
+        @if (currentPage === 'about') {
+            <div class="purple">/</div>
+        } @else {
+            <span class="purple">#</span>
+        }
         <span class="titleName">{{ 'ABOUT.TITLE' | translate }}</span>
         <div class="purpleLine"></div>
     </div>
@@ -17,7 +21,7 @@
             </div>
             @if (currentPage === 'main') {
                 <div class="buttonContainer" data-aos="fade-up" data-aos-duration="2000">
-                    <a href="/about" class="readMoreButton">{{ 'ABOUT.BUTTON' | translate }}</a>
+                    <a routerLink="/about" class="readMoreButton">{{ 'ABOUT.BUTTON' | translate }}</a>
                 </div>
             }
             

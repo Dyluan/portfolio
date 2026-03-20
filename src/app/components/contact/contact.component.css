@@ -6,6 +6,14 @@
     color: white;
     margin-bottom: 145px;
 }
+.notMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 160px 170px 0px 170px;
+    color: white;
+    margin-bottom: 145px;
+}
 .titleContainer {
     font-size: 32px;
     font-weight: bold;

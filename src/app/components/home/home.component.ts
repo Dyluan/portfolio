@@ -3,12 +3,14 @@ import TypeIt from 'typeit';
 import { TranslateModule } from '@ngx-translate/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   imports: [
-    TranslateModule
-  ],
+    TranslateModule,
+    RouterLink
+],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

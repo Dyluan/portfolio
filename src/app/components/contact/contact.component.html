@@ -1,6 +1,11 @@
-<div class="main" id="contact">
+<div [className]="mainClassName" id="contact">
     <div class="titleContainer">
-        <span class="purple">#</span>
+        @if (currentPage === 'main') {
+            <span class="purple">#</span>
+        } @else {
+            <span class="purple">/</span>
+        }
+        
         <span class="title">{{ 'CONTACT.TITLE' | translate }}</span>
         <div class="purpleLine"></div>
     </div>
