@@ -11,7 +11,7 @@
   margin-bottom: 14px;
 }
 .slash {
-  color: #C778DD;
+  color: #c778dd;
 }
 .subTitle {
   font-size: 16px;
@@ -25,7 +25,7 @@
   margin-bottom: 48px;
 }
 .hashtag {
-  color: #C778DD;
+  color: #c778dd;
   font-weight: bold;
   font-size: 32px;
 }
@@ -45,4 +45,37 @@
 }
 .smallProjectsContainer {
   margin-bottom: 48px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .main {
+    padding: 128px;
+    margin-bottom: unset;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main {
+    padding: 64px;
+    padding-top: 20vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    padding: 32px;
+    margin-bottom: 48px;
+    padding-top: 15vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    padding: 16px;
+    padding-top: 10vh;
+  }
+  .projectsContainer, .smallProjectsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
 }

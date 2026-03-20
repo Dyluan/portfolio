@@ -90,7 +90,7 @@
 }
 
 @media only screen and (max-width: 1280px) {
-    .main {
+    .main, .notMain {
         padding: 128px;
         margin-bottom: unset;
     }
@@ -100,8 +100,11 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .main {
+    .main, .notMain {
         padding: 64px;
+    }
+    .notMain {
+        padding-top: 20vh;
     }
     .right {
         font-size: 14px;
@@ -109,9 +112,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .main {
+    .main, .notMain {
         padding: 32px;
         margin-bottom: 48px;
+    }
+    .notMain {
+        padding-top: 15vh;
     }
     .left {
         display: flex;
@@ -130,10 +136,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .main {
+    .main, .notMain {
         padding: 16px;
-        /* padding-top: 170px; */
-        /* margin-top: 112px; */
+    }
+    .notMain {
+        padding-top: 10vh;
     }
     .contentContainer {
         display: flex;

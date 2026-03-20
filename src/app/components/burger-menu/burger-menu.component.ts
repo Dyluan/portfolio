@@ -2,13 +2,15 @@ import { Component, output } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { LanguageService } from '../../services/language.service';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-burger-menu',
   imports: [
     TranslateModule,
     CommonModule,
-  ],
+    RouterLink
+],
   templateUrl: './burger-menu.component.html',
   styleUrl: './burger-menu.component.css'
 })

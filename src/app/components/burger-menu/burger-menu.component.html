@@ -13,27 +13,19 @@
     <div class="container">
         <div class="elem">
             <div class="hashtag">#</div>
-            <a href="#home" (click)="closeMenu()">{{ 'HEADER.HOME' | translate }}</a>
+            <a routerLink="/" (click)="closeMenu()">{{ 'HEADER.HOME' | translate }}</a>
         </div>
         <div class="elem">
             <div class="hashtag">#</div>
-            <a href="#projects" (click)="closeMenu()">{{ 'HEADER.PROJECTS' | translate }}</a>
+            <a routerLink="/projects" (click)="closeMenu()">{{ 'HEADER.PROJECTS' | translate }}</a>
         </div>
         <div class="elem">
             <div class="hashtag">#</div>
-            <a href="#skills" (click)="closeMenu()">{{ 'HEADER.SKILLS' | translate }}</a>
+            <a routerLink="/about" (click)="closeMenu()">{{ 'HEADER.ABOUT' | translate }}</a>
         </div>
         <div class="elem">
             <div class="hashtag">#</div>
-            <a href="#about" (click)="closeMenu()">{{ 'HEADER.ABOUT' | translate }}</a>
-        </div>
-        <div class="elem">
-            <div class="hashtag">#</div>
-            <a href="#contact" (click)="closeMenu()">{{ 'HEADER.CONTACT' | translate }}</a>
-        </div>
-        <div class="elem">
-            <div class="hashtag">#</div>
-            <a href="#home" (click)="closeMenu()">{{ 'HEADER.HOME' | translate }}</a>
+            <a routerLink="/contact" (click)="closeMenu()">{{ 'HEADER.CONTACT' | translate }}</a>
         </div>
         <div class="languageSelector">
             <button class="dropbtn" (click)="toggleDropDown()">

@@ -55,6 +55,12 @@
     font-size: 32px;
     margin-bottom: 32px;
 }
+.elem:hover {
+    cursor: pointer;
+}
+.elem a:hover {
+    color: white;
+}
 .hashtag {
     color: #C778DD;
 }
