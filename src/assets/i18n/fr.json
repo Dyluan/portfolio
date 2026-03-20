@@ -2,7 +2,7 @@
     "HOME": {
         "TITLE": "Dylan est un",
         "SUBTITLE": "Je crée des sites web responsifs et des applications où la technologie rencontre la créativité",
-        "CONTACT": "Contactez-moi!!",
+        "CONTACT": "Contactez-moi",
         "CURRENT_WORK": "Actuellement occupé à ",
         "CURRENT_SITUATION": "apprendre .NET",
         "QUOTE" : "De grands pouvoirs impliquent de grandes factures d'électricité",
@@ -33,6 +33,26 @@
         "IMMO": {
             "TITLE": "LogeFinder",
             "DESCRIPTION": "Ce projet est une application web qui permet aux utilisateurs de rechercher des annonces immobilières en Belgique."
+        },
+        "GITHUB": {
+            "TITLE": "Statistiques GitHub",
+            "DESCRIPTION": "Interface web permettant de visualiser les statistiques d'un utilisateur GitHub. Fait avec GitHub API"
+        },
+        "ANTS": {
+            "TITLE": "Fourmis vs Abeilles",
+            "DESCRIPTION": "Petit jeu fait avec Python, l'un de mes premiers projets"
+        },
+        "512": {
+            "TITLE": "512",
+            "DESCRIPTION": "Adaptation du fameux jeu mobile 2048. Fait en React."
+        },
+        "SMALLTODO": {
+            "TITLE": "Todo Liste",
+            "DESCRIPTION": "Simple todo liste, avec un back-end en .net pour la persistance des données. Première app faite avec .NET"
+        },
+        "DOCTOR": {
+            "TITLE": "Santé Globale",
+            "DESCRIPTION": "Site d'un cabinet médical fait pour un client à Bruxelles"
         }
     },
     "SKILLS": {

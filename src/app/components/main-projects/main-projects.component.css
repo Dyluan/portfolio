@@ -26,8 +26,8 @@
 }
 .hashtag {
   color: #C778DD;
+  font-weight: bold;
   font-size: 32px;
-  font-weight:normal;
 }
 .mainTitle {
   font-weight: bold;

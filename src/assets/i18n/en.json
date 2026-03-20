@@ -33,6 +33,26 @@
         "IMMO": {
             "TITLE": "LogeFinder",
             "DESCRIPTION": "This project is a web application that allows users to search for real estate listings in Belgium."
+        },
+        "GITHUB": {
+            "TITLE": "GitHub Stats Viewer",
+            "DESCRIPTION": "Cool web interface to visualize someone's Github activity. Made using Github API"
+        },
+        "ANTS": {
+            "TITLE": "Ants vs Bees",
+            "DESCRIPTION": "GUI game made with Python, one of my first project"
+        },
+        "512": {
+            "TITLE": "512",
+            "DESCRIPTION": "Adaptation of the famous 2048 mobile game. Made in React."
+        },
+        "SMALLTODO": {
+            "TITLE": "Todo List",
+            "DESCRIPTION": "Simple todo list, with a back-end for persistent data. First app made with .NET"
+        },
+        "DOCTOR": {
+            "TITLE": "Global Health",
+            "DESCRIPTION": "Doctor's office webpage that I made for a client in Bruxelles"
         }
     },
     "SKILLS": {

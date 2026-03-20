@@ -39,8 +39,8 @@ export class MainProjectsComponent {
     },
     {
       imgSrc: '/img/githubviewer.png',
-      title: 'GitHub Stats Viewer',
-      description: "Cool web interface to visualize someone's Github activity. Made using Github API",
+      title: 'PROJECTS.GITHUB.TITLE',
+      description: 'PROJECTS.GITHUB.DESCRIPTION',
       url: 'https://github.com/Dyluan/GitView',
       technologies: ['Node.js', 'Express', 'Angular', 'TypeScript', 'HTML', 'CSS'],
       isLive: false,
@@ -49,29 +49,29 @@ export class MainProjectsComponent {
 
   smallProjects = [
     {
-      title: 'Ant vs Bees',
-      description: 'GUI game made with Python, one of my first project',
+      title: 'PROJECTS.ANTS.TITLE',
+      description: 'PROJECTS.ANTS.DESCRIPTION',
       url: 'https://github.com/Dyluan/AntsVsBees',
       technologies: ['Python'],
       isLive: false
     },
     {
-      title: '512',
-      description: 'Adaptation of the famous 2048 mobile game. Made in React.',
+      title: 'PROJECTS.512.TITLE',
+      description: 'PROJECTS.512.DESCRIPTION',
       url: 'https://github.com/Dyluan/512-React',
       technologies: ['React', 'HTML', 'CSS'],
       isLive: false
     },
     {
-      title: 'Todo list',
-      description: 'Simple todo list, with a back-end for persistent data. First app made with .NET',
+      title: 'PROJECTS.SMALLTODO.TITLE',
+      description: 'PROJECTS.SMALLTODO.DESCRIPTION',
       url: 'https://github.com/Dyluan/Todo-list/tree/main',
       technologies: ['React', 'HTML', 'CSS', 'ASP.NET Core'],
       isLive: false
     },
     {
-      title: 'Santé Globale',
-      description: "Doctor's office webpage that I made for a client in Bruxelles",
+      title: 'PROJECTS.DOCTOR.TITLE',
+      description: 'PROJECTS.DOCTOR.DESCRIPTION',
       url: 'https://github.com/Dyluan/Sant-Globale',
       technologies: ['Angular', 'HTML', 'CSS'],
       isLive: false
