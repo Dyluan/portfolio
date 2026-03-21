@@ -17,7 +17,7 @@ export class SkillsComponent {
 
   languages = {
     title: 'SKILLS.LANGUAGES',
-    skills: ['Python', 'JavaScript', 'TypeScript']
+    skills: ['JavaScript', 'TypeScript', 'Python', '.NET']
   }
   databases = {
     title: 'SKILLS.DATABASES',
@@ -25,7 +25,7 @@ export class SkillsComponent {
   }
   tools = {
     title: 'SKILLS.TOOLS',
-    skills: ['Git', 'VSCode', 'Postman', 'Figma', 'Google']
+    skills: ['Git', 'VSCode', 'Postman', 'Figma', 'Google', 'ThreeJS', 'Tailwind']
   }
   other = {
     title: 'SKILLS.OTHER',
@@ -37,6 +37,6 @@ export class SkillsComponent {
   }
   backend = {
     title: 'SKILLS.BACKEND',
-    skills: ['Node.js', 'Express.js',]
+    skills: ['Node.js', 'Express.js', '.NET']
   }
 }
