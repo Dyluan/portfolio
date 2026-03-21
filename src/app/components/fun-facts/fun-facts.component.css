@@ -89,11 +89,6 @@
     top: 50px;
 }
 
-
-* {
-    background-color: rgba(199, 78, 0, 0.2);
-}
-
 @media only screen and (max-width: 1280px) {
     .main {
         padding: 128px;
