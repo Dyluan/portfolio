@@ -90,6 +90,10 @@
 }
 
 
+* {
+    background-color: rgba(199, 78, 0, 0.2);
+}
+
 @media only screen and (max-width: 1280px) {
     .main {
         padding: 128px;
@@ -103,7 +107,7 @@
     }
     .img3 {
         left: unset;
-        right: -64px;
+        right: 50px;
     }
     .leftImg {
         display: none;

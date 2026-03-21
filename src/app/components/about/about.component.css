@@ -1,3 +1,9 @@
+:host {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -42,16 +48,17 @@
 }
 .left {
     width: 50%;
-    position: relative;
+    /* position: relative; */
 }
-.leftImg {
+/* .leftImg {
     position: absolute;
-    left: -170px;
+    left: 170px;
     top: 30px;
-}
+} */
 .right {
     width: 50%;
     position: relative;
+    /* overflow: hidden; */
 }
 .text {
     margin: 23px 0 27px 0;
@@ -103,14 +110,14 @@
 }
 
 @media only screen and (max-width: 1280px) {
-    .main {
+    .main, .notMain {
         padding: 128px;
         margin-bottom: unset;
     }
-    .leftImg {
+    /* .leftImg {
         left: -128px;
         top: 30px;
-    }
+    } */
     .img4 {
         right: -128px;
         left: unset;
@@ -118,36 +125,54 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .main {
+    .main, .notMain {
         padding: 64px;
         margin-bottom: unset;
     }
+    .notMain {
+        padding-top: 20vh;
+    }
     .img4 {
         display: none;
     }
-    .leftImg {
+    .dots {
+        right: 50px;
+    }
+    .right {
+        overflow: hidden;
+    }
+    /* .leftImg {
         left: -80px;
         top: 30px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 768px) {
-    .main {
+    .main, .notMain {
         padding: 32px;
         margin-bottom: unset;
+    }
+    .notMain {
+        padding-top: 15vh;
     }
     .img4 {
         display: none;
     }
-    .leftImg {
-        display: none;
+    .right {
+        overflow: hidden;
     }
+    /* .leftImg {
+        display: none;
+    } */
 }
 
 @media only screen and (max-width: 600px) {
-    .main {
+    .main, .notMain {
         padding: 16px;
         margin-bottom: unset;
+    }
+    .notMain {
+        padding-top: 10vh;
     }
     .contentContainer {
         display: flex;
@@ -169,7 +194,7 @@
     .img4 {
         display: none;
     }
-    .leftImg {
+    /* .leftImg {
         display: none;
-    }
+    } */
 }
